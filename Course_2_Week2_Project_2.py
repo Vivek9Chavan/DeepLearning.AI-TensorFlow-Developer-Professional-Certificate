@@ -1,4 +1,15 @@
 
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 2: Data Augmentation
+
+Aim: Horses or Humans Dataset
+"""
+
 import os
 import zipfile
 from os import path, getcwd, chdir
