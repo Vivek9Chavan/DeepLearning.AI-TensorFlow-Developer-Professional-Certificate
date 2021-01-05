@@ -5,7 +5,7 @@ This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certi
 All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
 Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
-Week 1: Introduction to Computer Vision
+Week 2: Introduction to Computer Vision
 
 Aim: Implementing Callback
 """
