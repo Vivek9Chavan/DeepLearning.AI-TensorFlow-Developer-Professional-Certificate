@@ -16,12 +16,11 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 sentences = [
-    "Ich leibe mein Bulle",
-    "Mein Bulle fickt mich sehr gut",
-    "Ich komme jeder mal, wann mein Bulle mich fickt",
-    "Er hat mich alle nacht gefickt",
-    "Ich lecke sein Glied sehr gern",
-    "Er macht mich nass, wann er mich berührt"
+    "I am going to Berlin in April",
+    "Berlin is a great city. The people are friendly!",
+    "I plan to backpack through Europe",
+    "This year is going to bring a 1ot of changes",
+    "I am learning TensorFlow"
 ]
 
 tokenizer = Tokenizer(num_words=100, oov_token="<OOV>")
@@ -38,8 +37,8 @@ print(padded)
 
 # Try with words that the tokenizer wasn't fit to
 test_data=[
-    "Ich bin so geil",
-    "Leibe Bulle, komm, nimm mich, nimm meine muschi!"
+    "I am so happy!",
+    "Happy new year 2021!!"
 ]
 
 test_seq = tokenizer.texts_to_sequences(test_data)
