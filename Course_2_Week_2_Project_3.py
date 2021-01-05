@@ -1,7 +1,14 @@
 
-
 """
-Cats vs Dogs
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 2: Augmentation: A technique to avoid overfitting
+
+Aim: Cats vs Dogs dataset 
+
 """
 
 import os
@@ -25,6 +32,7 @@ local_zip = f"{getcwd()}/Dataset/cats-and-dogs.zip"
 zip_ref=zipfile.ZipFile(local_zip, "r")
 zip_ref.extractall("/Dataset/cats-and-dogs")
 zip_ref.close()
+
 
 print(len(os.listdir("/Dataset/cats-and-dogs/PetImages/Cat")))
 print(len(os.listdir("/Dataset/cats-and-dogs/PetImages/Dog")))
@@ -107,5 +115,5 @@ validation_datagen = ImageDataGenerator(rescale=1/255)
 train_generator = train_datagen.flow_from_directory(training_dir, batch_size = 16, class_mode="binary", target_size=(150,150))
 validation_generator = train_datagen.flow_from_directory(validation_dir, batch_size = 16, class_mode="binary", target_size=(150,150))
 
-model.fit_generator(train_generator, validation_data=validation_generator, epochs= 2)
+model.fit(train_generator, validation_data=validation_generator, epochs= 2)
 
