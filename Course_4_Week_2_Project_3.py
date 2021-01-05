@@ -1,5 +1,14 @@
 """
-Simple DNN for the time series
+
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 4: Deep Neural Networks for Time Series
+
+Aim: Simple DNN for the time series
+
 """
 
 import tensorflow as tf
@@ -151,3 +160,4 @@ plot_series(time_valid, x_valid)
 plot_series(time_valid, results)
 
 tf.keras.metrics.mean_absolute_error(x_valid, results).numpy()
+
