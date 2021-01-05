@@ -1,6 +1,14 @@
 """
-Embedding + Conv1D
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 3: Sequence Models
+
+Aim: IMDB Dataset
 """
+
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import tensorflow_datasets as tfds
