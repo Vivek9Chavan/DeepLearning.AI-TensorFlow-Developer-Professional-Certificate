@@ -1,6 +1,17 @@
+  
 """
-Week 1 Question
+
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 1: Sequences and Prediction
+
+Aim: Week 1 Test
+
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -119,3 +130,4 @@ plt.show()
 
 print(keras.metrics.mean_squared_error(x_valid, diff_moving_avg_plus_smooth_past).numpy())
 print(keras.metrics.mean_absolute_error(x_valid, diff_moving_avg_plus_smooth_past).numpy())
+
