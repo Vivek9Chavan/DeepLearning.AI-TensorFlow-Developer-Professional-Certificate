@@ -1,4 +1,14 @@
 
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 1: Enhancing Vision with Convolutional Neural Networks
+
+Aim: Creating manual convolutions and filters:
+
 #import cv2
 import numpy as np
 from scipy import misc
