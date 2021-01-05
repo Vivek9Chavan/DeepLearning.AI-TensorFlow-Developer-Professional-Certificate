@@ -6,7 +6,7 @@ Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning
 
 Week 2: Introduction to Computer Vision
 
-Aim: Predicting the y-axis values for the given x-axis values on a straight line:
+Aim: MNIST Dataset multiclass classification
 """
 
 import tensorflow as tf
@@ -46,7 +46,4 @@ def plot_graphs(history,string):
 
 plot_graphs(history,"acc")
 plot_graphs(history,"loss")
-
-
-
 
