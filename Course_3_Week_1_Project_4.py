@@ -1,3 +1,13 @@
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 1: Sentiment in text
+
+Aim: BBC News Dataset
+"""
 
 import csv
 import tensorflow as tf
@@ -46,3 +56,4 @@ label_word_index = label_tokenizer.word_index
 label_seq = label_tokenizer.texts_to_sequences(labels)
 print(label_seq)
 print(label_word_index)
+
