@@ -1,16 +1,14 @@
 
 """
-Exercise 2
-In the course you learned how to do classification using Fashion MNIST, a data set containing items of clothing. There's another, similar dataset called MNIST which has items of handwriting -- the digits 0 through 9.
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
 
-Write an MNIST classifier that trains to 99% accuracy or above, and does it without a fixed number of epochs -- i.e. you should stop training once you reach that level of accuracy.
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
-Some notes:
+Week 1: A New Programming Paradigm
 
-It should succeed in less than 10 epochs, so it is okay to change epochs= to 10, but nothing larger
-When it reaches 99% or greater it should print out the string "Reached 99% accuracy so cancelling training!"
-If you add any additional variables, make sure you use the same names as the ones used in the class
-I've started the code for you below -- how would you finish it?
+Aim: Convolutions, MaxPooling anc callbacks
+
 """
 
 import tensorflow as tf
