@@ -1,3 +1,14 @@
+
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 1: Introduction to Computer Vision
+
+Aim: Implementing Callback
+"""
 """
 Exercise 2
 In the course you learned how to do classification using Fashion MNIST, a data set containing items of clothing. There's another, similar dataset called MNIST which has items of handwriting -- the digits 0 through 9.
@@ -54,8 +65,8 @@ def train_mnist():
 
     plot_graphs(history, "acc")
     plot_graphs(history, "loss")
-    """This is how it s done!"""
 
     return history.epoch, history.history["acc"][-1]
 
 train_mnist()
+
