@@ -1,4 +1,13 @@
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
 
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 2: Introduction to Computer Vision
+
+Aim: Implementing Callbacks
+"""
 
 import tensorflow as tf
 import numpy as np
@@ -50,3 +59,4 @@ def plot_graphs(history,string):
 
 plot_graphs(history,"acc")
 plot_graphs(history,"loss")
+
