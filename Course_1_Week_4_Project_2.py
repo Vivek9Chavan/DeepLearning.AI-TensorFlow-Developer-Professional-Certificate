@@ -4,7 +4,7 @@ This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certi
 All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
 Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
-Week 1: Using Real-world Images
+Week 4: Using Real-world Images
 
 Aim: CNNs-Binary classification using computer generated images and predicting on real world images
 """
