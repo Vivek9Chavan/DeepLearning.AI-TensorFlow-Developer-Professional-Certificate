@@ -3,6 +3,8 @@
 
 This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
 All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+
+All data needed for training the models can be found online.
 ---------------------------
 There are 4 Courses in this Professional Certificate:
 
