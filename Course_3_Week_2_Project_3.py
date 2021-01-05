@@ -1,3 +1,16 @@
+
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 3: Word Embeddings
+
+Aim: IMDB Dataset
+"""
+
+
 import tensorflow as tf
 import tensorflow_datasets as tfds
 imdb, info = tfds.load("imdb_reviews/subwords8k", with_info=True, as_supervised=True)
@@ -74,3 +87,4 @@ for word_num in range(1, tokenizer.vocab_size):
   out_v.write('\t'.join([str(x) for x in embeddings]) + "\n")
 out_v.close()
 out_m.close()
+
