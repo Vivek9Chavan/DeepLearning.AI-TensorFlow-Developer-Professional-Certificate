@@ -1,4 +1,15 @@
 
+"""
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 1: Multiclass Classifications
+
+Aim: Sign MNIST Dataset
+"""
+
 import csv
 import os
 import zipfile
@@ -11,7 +22,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 local_zip = f"{getcwd()}/Dataset/archive.zip"
 zip_ref=zipfile.ZipFile(local_zip, "r")
 zip_ref.extractall("/Dataset/sign_mnist_train.csv")
-local_zip=f"{getcwd()}/Dataset/validation-horse-or-human.zip"
+"""local_zip=f"{getcwd()}/Dataset/validation-horse-or-human.zip"""
 zip_ref=zipfile.ZipFile(local_zip, "r")
 zip_ref.extractall("/Dataset/sign_mnist_test.csv")
 zip_ref.close()
