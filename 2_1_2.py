@@ -1,6 +1,14 @@
 
+
 """
-Cats vs Dogs
+This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certificate offered on Coursera.
+
+All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
+Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+
+Week 1: Exploring a Larger Dataset
+
+Aim: Binary classification using the Cats vs Dogs Full Dataset
 """
 
 import os
@@ -106,5 +114,5 @@ validation_datagen = ImageDataGenerator(rescale=1/255)
 train_generator = train_datagen.flow_from_directory(training_dir, batch_size = 16, class_mode="binary", target_size=(150,150))
 validation_generator = train_datagen.flow_from_directory(validation_dir, batch_size = 16, class_mode="binary", target_size=(150,150))
 
-model.fit_generator(train_generator, validation_data=validation_generator, epochs= 2)
+model.fit(train_generator, validation_data=validation_generator, epochs= 30)
 
