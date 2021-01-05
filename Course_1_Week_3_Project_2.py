@@ -5,7 +5,7 @@ This is is a part of the DeepLearning.AI TensorFlow Developer Professional Certi
 All copyrights belong to them. I am sharing this work here to showcase the projects I have worked on
 Course: Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 
-Week 1: A New Programming Paradigm
+Week 3: A New Programming Paradigm
 
 Aim: Convolutions, MaxPooling anc callbacks
 
